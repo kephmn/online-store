@@ -1,0 +1,12 @@
+class CreateOrders < ActiveRecord::Migration[8.1]
+  def change
+    create_table :orders do |t|
+      t.references :user, null: false, foreign_key: true
+      t.decimal :total
+      t.integer :status
+      t.references :address, null: false, foreign_key: false
+
+      t.timestamps
+    end
+  end
+end
