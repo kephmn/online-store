@@ -36,7 +36,7 @@ gem "image_processing", "~> 1.2"
 gem 'devise', '~> 5.0'                 # User authentication (currently 5.0.4)
 gem 'devise-jwt'            # JWT strategy for API authentication
 gem 'dry-configurable' # Add this to resolve initialization nil errors
-gem 'rack-cors', '~> 2.0'              # Cross-Origin Resource Sharing (CORS) for API
+gem 'rack-cors', '~> 3.0'              # Cross-Origin Resource Sharing (CORS) for API
 
 # API serialization
 gem 'active_model_serializers', '~> 0.10.14' # JSON serialization of models
