@@ -52,7 +52,7 @@ gem 'dotenv-rails', '~> 3.1'           # Manage environment variables
 gem 'sidekiq', '~> 7.3'                # For asynchronous tasks like order confirmation emails
 
 # Payment gateway (example: Stripe)
-gem 'stripe', '~> 13.0'                # Payment processing
+gem 'stripe', '~> 20.0'                # Payment processing
 
 group :development, :test do
   gem 'rspec-rails', '~> 7.0'          # RSpec testing framework
