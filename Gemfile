@@ -49,7 +49,7 @@ gem 'cssbundling-rails', '~> 1.4'      # Bundle CSS with Bootstrap
 gem 'dotenv-rails', '~> 3.1'           # Manage environment variables
 
 # Background jobs (optional, for emails)
-gem 'sidekiq', '~> 7.3'                # For asynchronous tasks like order confirmation emails
+gem 'sidekiq', '~> 8.1'                # For asynchronous tasks like order confirmation emails
 
 # Payment gateway (example: Stripe)
 gem 'stripe', '~> 13.0'                # Payment processing
