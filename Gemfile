@@ -55,7 +55,7 @@ gem 'sidekiq', '~> 7.3'                # For asynchronous tasks like order confi
 gem 'stripe', '~> 13.0'                # Payment processing
 
 group :development, :test do
-  gem 'rspec-rails', '~> 7.0'          # RSpec testing framework
+  gem 'rspec-rails', '~> 8.0'          # RSpec testing framework
   gem 'factory_bot_rails', '~> 6.4'    # Fixture replacement with factories
   gem 'faker', '~> 3.4'                # Generate fake data for seeding
   gem 'pry-rails', '~> 0.3'            # Debugging console
